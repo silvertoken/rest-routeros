@@ -17,9 +17,6 @@
 	<a href="https://github.com/silvertoken/rest-routeros/issues">
     	<img src="https://img.shields.io/github/issues/silvertoken/rest-routeros.svg?style=for-the-badge" alt="Issues">
 	</a>
-	<a href="https://github.com/silvertoken/rest-routeros/blob/main/LICENSE">
-    	<img src="https://img.shields.io/github/license/silvertoken/rest-routeros.svg?style=for-the-badge" alt="License">
-	</a>
 </p>
 
 <!-- PROJECT LOGO -->
