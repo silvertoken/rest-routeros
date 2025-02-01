@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 setup(
-    name='RestRouterOS',
+    name='Rest-RouterOS',
     version='0.1.0',
     packages=find_packages(include=['RestRouterOS', 'RestRouterOS.*']),
     description='A python module for RouterOS REST API',
