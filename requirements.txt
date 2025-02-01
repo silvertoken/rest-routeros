@@ -1,0 +1,6 @@
+httpx
+flake8
+codecov
+pytest
+pytest-cov
+pytest_httpx
