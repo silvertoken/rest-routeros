@@ -101,7 +101,7 @@ Install the module using pip
 
 * RestRouterOS
   ```sh
-  pip install RestRouterOS
+  pip install Rest-RouterOS
   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
