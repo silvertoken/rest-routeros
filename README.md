@@ -6,7 +6,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![Unlicense License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 <!-- PROJECT LOGO -->
@@ -80,7 +79,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 ### Prerequisites
 
 Python and HTTPX is required
-* pip
+* HTTPX
   ```sh
   pip install httpx
   ```
@@ -89,7 +88,7 @@ Python and HTTPX is required
 
 Install the module using pip
 
-* pip
+* RestRouterOS
   ```sh
   pip install RestRouterOS
   ```
@@ -175,4 +174,4 @@ Project Link: [https://github.com/silvertoken/rest-routeros](https://github.com/
 [python-badge]: https://img.shields.io/badge/python-000000?style=for-the-badge&logo=python&logoColor=white
 [python-url]: https://www.python.org/
 [httpx-badge]: https://img.shields.io/badge/HTTPX-000000?style=for-the-badge
-[python-url]: https://www.python-httpx.org/
+[httpx-url]: https://www.python-httpx.org/
