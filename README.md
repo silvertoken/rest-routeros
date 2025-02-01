@@ -1,13 +1,26 @@
 
 <a id="readme-top"></a>
 
-<div align="center">
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-</div>
+<p align="center">
+	<a href="https://github.com/silvertoken/rest-routeros/graphs/contributors">
+    	<img src="https://img.shields.io/github/contributors/silvertoken/rest-routeros.svg?style=for-the-badge" alt="Contributors">
+	</a>
+	<a href="https://github.com/silvertoken/rest-routeros/network/members">
+    	<img src="https://img.shields.io/github/forks/silvertoken/rest-routeros.svg?style=for-the-badge" alt="Forks">
+	</a>
+	<a href="https://github.com/silvertoken/rest-routeros/stargazers">
+    	<img src="https://img.shields.io/github/stars/silvertoken/rest-routeros.svg?style=for-the-badge" alt="Stars">
+	</a>
+	<a href="https://github.com/silvertoken/rest-routeros/pulse">
+    	<img src="https://shields.io/github/commit-activity/m/silvertoken/rest-routeros.svg?style=for-the-badge" alt="Commits">
+	</a>
+	<a href="https://github.com/silvertoken/rest-routeros/issues">
+    	<img src="https://img.shields.io/github/issues/silvertoken/rest-routeros.svg?style=for-the-badge" alt="Issues">
+	</a>
+	<a href="https://github.com/silvertoken/rest-routeros/blob/main/LICENSE">
+    	<img src="https://img.shields.io/github/license/silvertoken/rest-routeros.svg?style=for-the-badge" alt="License">
+	</a>
+</p>
 
 <!-- PROJECT LOGO -->
 <br />
@@ -162,16 +175,6 @@ Project Link: [https://github.com/silvertoken/rest-routeros](https://github.com/
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/silvertoken/rest-routeros.svg?style=for-the-badge
-[contributors-url]: https://github.com/silvertoken/rest-routeros/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/silvertoken/rest-routeros.svg?style=for-the-badge
-[forks-url]: https://github.com/silvertoken/rest-routeros/network/members
-[stars-shield]: https://img.shields.io/github/stars/silvertoken/rest-routeros.svg?style=for-the-badge
-[stars-url]: https://github.com/silvertoken/rest-routeros/stargazers
-[issues-shield]: https://img.shields.io/github/issues/silvertoken/rest-routeros.svg?style=for-the-badge
-[issues-url]: https://github.com/silvertoken/rest-routeros/issues
-[license-shield]: https://img.shields.io/github/license/silvertoken/rest-routeros.svg?style=for-the-badge
-[license-url]: https://github.com/silvertoken/rest-routeros/blob/main/LICENSE.txt
 [python-badge]: https://img.shields.io/badge/python-000000?style=for-the-badge&logo=python&logoColor=white
 [python-url]: https://www.python.org/
 [httpx-badge]: https://img.shields.io/badge/HTTPX-000000?style=for-the-badge
