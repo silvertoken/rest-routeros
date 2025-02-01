@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Rest-RouterOS"
+version = "0.1.0"
+authors = [
+  { name="silvertoken", email="1569232+silvertoken@users.noreply.github.com" },
+]
+description = "A python module for RouterOS REST API"
+readme = "README.md"
+requires-python = ">=3.13"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/silvertoken/rest-routeros"
+Issues = "https://github.com/silvertoken/rest-routeros/issues"
