@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "Rest-RouterOS"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
   { name="silvertoken", email="1569232+silvertoken@users.noreply.github.com" },
 ]

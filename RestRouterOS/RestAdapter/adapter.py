@@ -11,18 +11,22 @@ class RestAdapter:
         self.api_url = f"https://{hostname}:{port}/rest"
         # Use basic auth
         self.api_auth = httpx.BasicAuth(username=api_user, password=api_pass)
+        self.verify=verify
         # Check for trustred CA Path
         if capath is not None:
             self.api_client = httpx.Client(
                 verify=ssl.create_default_context(capath=capath))
         else:
-            self.api_client = httpx.Client(verify=verify)
+            self.api_client = None
 
     # Get calls to the REST API
     def get(self, endpoint):
         # Build url from endpoint path
         url = f"{self.api_url}/{endpoint}"
-        response = self.api_client.get(url, auth=self.api_auth)
+        if self.api_client is not None:
+            response = self.api_client.get(url, auth=self.api_auth)
+        else:
+            response = httpx.get(url, auth=self.api_auth, verify=self.verify)
 
         # Raise an exception for bad status codes
         response.raise_for_status()
